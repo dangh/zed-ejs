@@ -1,0 +1,11 @@
+id = "ejs"
+name = "EJS"
+version = "0.0.1"
+schema_version = 1
+authors = ["Dang Huynh"]
+description = "EJS template support for Zed"
+repository = "https://github.com/dangh/zed-ejs"
+
+[grammars.embedded_template]
+repository = "https://github.com/dangh/tree-sitter-embedded-template"
+commit = "aa0fa1e3bef95c192b2c7c4f527ed41a1dd8363b"

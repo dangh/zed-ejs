@@ -1,0 +1,6 @@
+name = "EJS"
+grammar = "embedded_template"
+path_suffixes = ["ejs", "eta"]
+brackets = [
+  { start = "<%", end = "%>", close = true, newline = false },
+]
